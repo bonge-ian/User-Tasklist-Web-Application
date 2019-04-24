@@ -36,12 +36,20 @@ class SubTasksController extends Controller
     public function update(SubTask $subtask) {
         // check to see if checkbox has been checked
        $method = request()->has('completed') ? 'complete' : 'incomplete';
+
+      if ($method == 'complete') {
+          $alert = 'success';
+          $mess = 'Subtask completed';
+      } else {
+          $alert = 'warning';
+          $mess = 'Subtask is incomplete';
+      }
     
         // update the completed column
         $subtask->$method();
         
         // return to view page
-        return redirect()->route('tasks.view')->with('success', 'Subtask completed successfully');
+        return redirect()->route('tasks.view')->with($alert, $mess);
     }
 
 }

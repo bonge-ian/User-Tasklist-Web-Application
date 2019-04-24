@@ -20,3 +20,10 @@
         {{ session('error') }}
     </div>
 @endif
+
+{{-- check for warning session alerts --}}
+@if (session('warning'))
+    <div class="warning callout radius">
+        {{ session('warning') }}
+    </div>
+@endif

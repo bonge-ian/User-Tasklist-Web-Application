@@ -1,0 +1,13 @@
+// no spacing
+%no-space {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+// container wrapper
+%wrap {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}

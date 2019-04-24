@@ -1,0 +1,104 @@
+* {
+    @extend %no-space;
+}
+
+body {
+    background-color: $body-bgcolor;
+    color: $body-color;
+    font: {
+        family: $body-font;
+        size: $body-fontsize;
+    }
+    line-height: $body-lineheight;
+}
+
+h1, h2, h3, h4, h5, h6,  .h1, .h2, .h3, .h4, .h5, .h6{
+    font-family: $heading-font;
+}
+
+.form-error {
+    display: block;
+}
+.nav-wrapper {
+    @extend %wrap;
+}
+
+.top-bar, .top-bar ul {
+    background-color: $nav-bgcolor;
+    color: $nav-color;
+
+    .menu a, .menu-text, .dropdown.menu > li > a {
+        padding: 0.7rem 1rem;
+        color: inherit;
+        background-color: inherit;
+    }
+    
+    .menu {
+
+        li {
+             padding: 0.7rem 1rem;
+        }
+    }
+    .menu a {
+
+        &:hover {
+            background-color: lighten($nav-bgcolor, 32%);
+            color: darken($nav-color, 5%);
+        }
+    }
+}
+
+.card h3 {
+    color: lighten(#4590FF, 8%);
+    font-weight: bold;
+}
+
+.button-group{
+    .add-btn {
+        background-color: darken(#4590FF, 6%);
+        color: #f8f8f8;
+        margin-right: 1rem;
+
+        &:hover {
+            background-color: lighten(darken(#4590ff, 30%), 8%)
+        }
+    }
+    .view-btn {
+        background-color: lighten(#802520, 4%);
+        color: #f8f8f8;
+
+        &:hover {
+            background-color: lighten(darken(#802520, 30%), 12%)
+        }
+    }
+}
+
+.reveal {
+    background-color: #f2f2f2;
+    color: #333;
+    border-radius: 0.9rem;
+
+    form {
+        border: 1px solid #ddd;
+        border-radius: 0.6rem;
+        background-color: #fcfcfc;
+        padding: 1.2rem 1.6rem;
+        margin: 1rem .9rem;
+
+        button {
+            background: lighten($nav-bgcolor, 15%);
+            color: #fff;
+
+            &:hover {
+                background-color: lighten($nav-bgcolor, 30%);
+                color: #fff;
+            }
+        }
+    }
+}
+
+#view {
+    a.accordion-title { 
+        font-size: 1.34569rem;
+    }
+}

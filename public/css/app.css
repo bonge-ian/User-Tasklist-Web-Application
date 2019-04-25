@@ -8519,3 +8519,8 @@ h6,
   font-size: 1.34569rem;
 }
 
+button.success.button,
+.button.success {
+  color: #fefefe;
+}
+

@@ -5,40 +5,58 @@
 body {
     background-color: $body-bgcolor;
     color: $body-color;
+
     font: {
         family: $body-font;
         size: $body-fontsize;
     }
+
     line-height: $body-lineheight;
 }
 
-h1, h2, h3, h4, h5, h6,  .h1, .h2, .h3, .h4, .h5, .h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     font-family: $heading-font;
 }
 
 .form-error {
     display: block;
 }
+
 .nav-wrapper {
     @extend %wrap;
 }
 
-.top-bar, .top-bar ul {
+.top-bar,
+.top-bar ul {
     background-color: $nav-bgcolor;
     color: $nav-color;
 
-    .menu a, .menu-text, .dropdown.menu > li > a {
+    .menu a,
+    .menu-text,
+    .dropdown.menu>li>a {
         padding: 0.7rem 1rem;
         color: inherit;
         background-color: inherit;
     }
-    
+
     .menu {
 
         li {
-             padding: 0.7rem 1rem;
+            padding: 0.7rem 1rem;
         }
     }
+
     .menu a {
 
         &:hover {
@@ -53,7 +71,7 @@ h1, h2, h3, h4, h5, h6,  .h1, .h2, .h3, .h4, .h5, .h6{
     font-weight: bold;
 }
 
-.button-group{
+.button-group {
     .add-btn {
         background-color: darken(#4590FF, 6%);
         color: #f8f8f8;
@@ -63,6 +81,7 @@ h1, h2, h3, h4, h5, h6,  .h1, .h2, .h3, .h4, .h5, .h6{
             background-color: lighten(darken(#4590ff, 30%), 8%)
         }
     }
+
     .view-btn {
         background-color: lighten(#802520, 4%);
         color: #f8f8f8;
@@ -98,7 +117,11 @@ h1, h2, h3, h4, h5, h6,  .h1, .h2, .h3, .h4, .h5, .h6{
 }
 
 #view {
-    a.accordion-title { 
+    a.accordion-title {
         font-size: 1.34569rem;
     }
+}
+
+button.success.button, .button.success {
+    color: #fefefe;
 }

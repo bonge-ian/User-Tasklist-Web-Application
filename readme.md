@@ -1,5 +1,5 @@
 ## User-Tasklist Web Application
-----------
+
 This is a user-based tasklist application made with:
 - **Laravel Framework** *Version*: 5.8 (https://laravel.com).
 - **Zurb's Foundation CSS Framework** (https://foundation.zurb.com/)
@@ -20,8 +20,8 @@ It has implemented:
     - [Migrations](https://laravel.com/docs/5.8/migrations)
     - among [others](https://laravel.com/docs/5.8).
 
-## About
-----------
+## About.
+
 This application allows a registered user to:
 - Create a task(s).
 - View a task(s).
@@ -29,15 +29,15 @@ This application allows a registered user to:
 - Create a sub-task under a particular task.
 - Mark a sub-task as complete/incomplete.
 
-## Requirements
----------- 
+## Requirements.
+
 - PHP 7.2 and above installed.
 - MySQL or sqlite or postgres installed.
 - Internet connection.
 - For linux/OSX machines, please be sure to check permissions on this project.
 
 ## Use
----------- 
+
 - Clone this repo or download the zip file
 - Extract from zip file 
 - Open the contents in your favourite text editor

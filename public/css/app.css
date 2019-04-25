@@ -8524,3 +8524,8 @@ button.success.button,
   color: #fefefe;
 }
 
+button.success.button:hover,
+.button.success:hover {
+  color: #fefefe;
+}
+

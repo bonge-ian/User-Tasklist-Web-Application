@@ -31,10 +31,10 @@ This application allows a registered user to:
 
 ## Requirements
 ---------- 
-- PHP 7.2 and above installed
-- MySQL or sqlite or postgres installed
-- Internet connection
-- For linux/OSX machines, please be sure to check permissions on this project
+- PHP 7.2 and above installed.
+- MySQL or sqlite or postgres installed.
+- Internet connection.
+- For linux/OSX machines, please be sure to check permissions on this project.
 
 ## Use
 ---------- 
@@ -44,10 +44,10 @@ This application allows a registered user to:
 - At the root of the folder, create a .env file
 - Copy contents of .env.example to the newly created .env file
 - Configure your favorite database (mysql, sqlite etc.) and other preferred settings.
-- Open terminal
+- Open terminal.
 - `npm install`
 - `npm run dev`
-- `php artisan migrate` to create tables
+- `php artisan migrate` to create tables.
 - `php artisan serve` (or equivalent) to run server and test.
 - `127.0.0.1:8000` on your local machine.
 

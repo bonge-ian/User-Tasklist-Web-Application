@@ -33,6 +33,8 @@ This application allows a registered user to:
 
 - PHP 7.2 and above installed.
 - MySQL or sqlite or postgres installed.
+- Composer installed
+- Npm installed
 - Internet connection.
 - For linux/OSX machines, please be sure to check permissions on this project.
 
@@ -45,6 +47,7 @@ This application allows a registered user to:
 - Copy contents of .env.example to the newly created .env file
 - Configure your favorite database (mysql, sqlite etc.) and other preferred settings.
 - Open terminal.
+- `composer install`
 - `npm install`
 - `npm run dev`
 - `php artisan migrate` to create tables.
